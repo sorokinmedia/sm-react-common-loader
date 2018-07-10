@@ -1,0 +1,37 @@
+.loader-text {
+	color: #888;
+	padding-left: 5px;
+}
+
+.loader-wrapper {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(255, 255, 255, 0.7);
+	z-index: 9999;
+}
+
+.centerViewer {
+	position: absolute;
+	top: 35%;
+	left: 45%;
+	display: inline-block;
+}
+
+.loader-wrapper.fixed {
+	position: fixed;
+}
+
+.loader-wrapper.fixed .centerViewer {
+	position: fixed
+}
+
+.loader-wrapper.full-screen-loader {
+	background: rgba(255, 255, 255, 0.4);
+}
+
+.inline-small-loader {
+	display: inline-block;
+}
