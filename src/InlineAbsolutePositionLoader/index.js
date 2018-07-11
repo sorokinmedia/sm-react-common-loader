@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types'
 import React from 'react'
-import InlineSmallLoader from './InlineSmallLoader';
+import InlineSmallLoader from '../InlineSmallLoader';
 
 function InlineAbsolutePositionLoader(props) {
 	const { top, right, bottom, left } = props;

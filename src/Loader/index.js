@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import Loading from 'react-loading'
-import './style.css'
+import '../style.css'
 
 function Loader(props) {
 	const { text, type, size } = props;
