@@ -16,8 +16,9 @@ export default {
 	// All the used libs needs to be here
 	external: [
 		'react',
+		'react-dom',
 		'react-proptypes',
-		'react-loading',
+		'react-loading'
 	],
 	plugins: [
 		postcss({
@@ -31,6 +32,6 @@ export default {
 			exclude: 'node_modules/**',
 			plugins: ['external-helpers']
 		}),
-		commonjs(),
-	],
+		commonjs()
+	]
 };
