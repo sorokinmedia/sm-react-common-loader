@@ -1,9 +1,9 @@
 import PropTypes from 'prop-types'
 import React from 'react'
-import InlineSmallLoader from '../InlineSmallLoader';
+import InlineSmallLoader from '../InlineSmallLoader'
 
 function InlineAbsolutePositionLoader(props) {
-	const { top, right, bottom, left } = props;
+	const { top, right, bottom, left } = props
 	return (
 		<div
 			style={{
@@ -23,6 +23,9 @@ InlineAbsolutePositionLoader.propTypes = {
 	right: PropTypes.string,
 	bottom: PropTypes.string,
 	left: PropTypes.string,
-};
-
+}
+InlineAbsolutePositionLoader.defaultProps = {
+	top: '0',
+	left: '0',
+}
 export default InlineAbsolutePositionLoader
